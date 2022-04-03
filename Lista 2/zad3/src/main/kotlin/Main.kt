@@ -2,7 +2,7 @@ fun main() {
     fun isCyclic(i: String):Boolean
     {
         //sprawdzenie czy naturalna
-        if (i.contains("-") || i.contains(".") || i.contains(",")  )
+        if (i.contains("-") || i.contains(".") || i.contains(","))
         {
             println("Liczba nie jest naturalna, podaj prawidłową liczbę!")
             return false
@@ -16,7 +16,8 @@ fun main() {
             {
                 var multiplicity = (i.toInt()*j).toString()
                 var mul_len = multiplicity.length
-                // każda wielokrotność liczby cyklicznek musi być tej samej długości co liczba wyjściowa
+
+                // każda wielokrotność liczby cyklicznej musi być tej samej długości co liczba wyjściowa
 
                 if (mul_len != length)
                 {
@@ -28,7 +29,9 @@ fun main() {
                     for (char in i)
                     {
                         val x = multiplicity.indexOf(char)
+
                         // jesli cyfry nie ma to jej indeks wynosi -1
+                        
                         if (x == -1)
                         {
                             return false
@@ -45,4 +48,5 @@ fun main() {
     //println(isCyclic("-430"))
     //println(isCyclic("50.5"))
     println(isCyclic("142857"))
+    println(isCyclic("142856"))
 }
