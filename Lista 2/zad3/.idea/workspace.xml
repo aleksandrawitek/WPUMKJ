@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e509aff-bc83-45c7-bb9d-3e4758fc8065" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/zad3/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zad3/MainKt.class" afterDir="false" />
+    <list default="true" id="4e509aff-bc83-45c7-bb9d-3e4758fc8065" name="Changes" comment="Lista 2">
+      <change afterPath="$PROJECT_DIR$/../../Lista 2.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,5 +53,20 @@
       <updated>1649000592904</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lista 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lista 2" />
   </component>
 </project>

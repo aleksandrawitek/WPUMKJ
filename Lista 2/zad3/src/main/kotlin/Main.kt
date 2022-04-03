@@ -31,7 +31,7 @@ fun main() {
                         val x = multiplicity.indexOf(char)
 
                         // jesli cyfry nie ma to jej indeks wynosi -1
-                        
+
                         if (x == -1)
                         {
                             return false
