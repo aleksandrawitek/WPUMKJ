@@ -19,6 +19,8 @@ public class Main {
 
         List<String> words = new ArrayList<>();
 
+        int words_info = 0;
+
         File myObj = new File("dictionary/slowa.txt");
         Scanner myReader = null;
         try
@@ -33,9 +35,10 @@ public class Main {
         {
             String data = myReader.nextLine();
             words.add(data);
+            words_info += 1;
         }
         myReader.close();
-        System.out.println("Załadowano!");
+        System.out.println("Załadowano " + words_info + " słów");
 
         // randomowy numer w zakresie words wg wzoru int b = (int)(Math.random()*(max-min+1)+min); min = 0
         int x = (int)(Math.random()*(words.size()));
